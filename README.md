@@ -14,7 +14,7 @@
 
 CatBoost 的五折平均 Log RMSE 较街区基线低 **53.40%**，较 Ridge 低 **4.83%**。它每折都胜过街区基线，对 Ridge 的优势来自第 2、3 折，尤其是第 3 折。把所有折外预测合并后计算，CatBoost 的 Log RMSE 为 **0.126264**。[模型汇总](results/model_comparison.csv) · [逐折成绩](results/fold_scores.csv)
 
-**尚未获得官方榜单成绩。** 下方另有已经完成的融合扩展，其平均 Log RMSE 为 0.118185，使用同一组五折。[扩展实验](extensions/ensemble/README.md)
+**主实验 CatBoost 的 Kaggle 官方 Public Score 为 0.12233**，提交编号为 `58516821`。融合扩展在同一组本地五折上的平均 Log RMSE 为 0.118185。[官方成绩核验](docs/verification.md#kaggle-官方提交) · [扩展实验](extensions/ensemble/README.md)
 
 ## 十分钟审阅路线
 
