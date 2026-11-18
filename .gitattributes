@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Keep archived CSV bytes reproducible with both LF and CRLF source files.
+*.csv -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.png binary

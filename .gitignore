@@ -1,0 +1,40 @@
+# 本地环境与执行缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+catboost_info/
+.mplconfig/
+.ipython/
+.jupyter/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 原始竞赛文件按需获取
+/data/
+**/data/
+train.csv
+test.csv
+sample_submission.csv
+*.zip
+
+# 凭证与本地配置
+.env
+.env.*
+kaggle.json
+.kaggle/
+access_token
+*.pem
+*.key
+*.p12
+
+# 自选运行目录与日志。results/ 中保存主实验审阅产物。
+/runs/
+/extensions/ensemble/rebuilt/
+*.log
